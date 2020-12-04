@@ -22,8 +22,8 @@ const Projects = () => {
                         </div>
                         <div className="card-action">
                             <p>
-                                <a href="https://github.com/johntc121/OldSoulPizza" target="_blank" className="project-links">View Source</a>
-                                <a href="https://oldsoulpizza.firebaseapp.com/" target="_blank" className="project-links">View Project</a>
+                                <a href="https://github.com/johntc121/OldSoulPizza" target="_blank" rel="noreferrer" className="project-links">View Source</a>
+                                <a href="https://oldsoulpizza.firebaseapp.com/" target="_blank"  rel="noreferrer" className="project-links">View Project</a>
                             </p>
                         </div>
                         <div className="card-reveal">
@@ -44,8 +44,8 @@ const Projects = () => {
                             </div>
                             <div className="card-action">
                                 <p>
-                                    <a href="https://github.com/johntc121/react-recipes" target="_blank" className="project-links">View Source</a>
-                                    <a href="https://reactrecipefinder.herokuapp.com/" target="_blank" className="project-links">View Project</a>
+                                    <a href="https://github.com/johntc121/react-recipes" target="_blank" rel="noreferrer" className="project-links">View Source</a>
+                                    <a href="https://reactrecipefinder.herokuapp.com/" target="_blank" rel="noreferrer" className="project-links">View Project</a>
                                 </p>
                             </div>
                             <div className="card-reveal">
@@ -65,8 +65,8 @@ const Projects = () => {
                             </div>
                             <div className="card-action">
                                 <p>
-                                    <a href="https://github.com/johntc121/MovieFinder" target="_blank" className="project-links">View Source</a>
-                                    <a href="https://react-movie-find.netlify.app/" target="_blank" className="project-links">View Project</a>
+                                    <a href="https://github.com/johntc121/MovieFinder" target="_blank" rel="noreferrer" className="project-links">View Source</a>
+                                    <a href="https://react-movie-find.netlify.app/" target="_blank" rel="noreferrer" className="project-links">View Project</a>
                                 </p>
                             </div>
                             <div className="card-reveal">
@@ -87,8 +87,8 @@ const Projects = () => {
                             </div>
                             <div className="card-action">
                                 <p>
-                                    <a href="https://github.com/johntc121/Relax" target="_blank" className="project-links">View Source</a>
-                                    <a href="https://sad-meitner-96e61d.netlify.app/" target="_blank" className="project-links">View Project</a>
+                                    <a href="https://github.com/johntc121/Relax" target="_blank" rel="noreferrer" className="project-links">View Source</a>
+                                    <a href="https://sad-meitner-96e61d.netlify.app/" target="_blank" rel="noreferrer" className="project-links">View Project</a>
                                 </p>
                             </div>
                             <div className="card-reveal">

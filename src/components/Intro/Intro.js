@@ -14,11 +14,11 @@ const Intro = () => {
                     
                 </div>
                 <p>
-                    <a className="social-link" href="https://www.linkedin.com/in/john-cripe-1b5975174/" target="_blank">
+                    <a className="social-link" href="https://www.linkedin.com/in/john-cripe-1b5975174/" target="_blank" rel="noreferrer">
                         <img src="https://img.icons8.com/ultraviolet/32/000000/linkedin.png" alt=""/>   
                     </a>
                       
-                    <a className="social-link" href="https://github.com/johntc121" target="_blank">
+                    <a className="social-link" href="https://github.com/johntc121" target="_blank" rel="noreferrer">
                         <img src={github} alt="github"/>
                     </a>
 
