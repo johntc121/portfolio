@@ -1,0 +1,51 @@
+#myName {
+    text-align: center;
+    font-size: 100px;
+    color: whitesmoke;
+    letter-spacing: .1em;
+    text-shadow: 
+      0 -1px 0 #fff, 
+      0 1px 0 #575656, 
+      0 2px 0 #585858, 
+      0 3px 0 #555454, 
+      0 4px 0 #575656, 
+      0 5px 0 #616161, 
+      0 6px 0 #575757, 
+      0 7px 0 rgb(87, 86, 86), 
+      0 8px 0 #474747, 
+      0 9px 0 #525151, 
+      0 10px 0 #4e4e4e, 
+      0 11px 0 #5e5d5d, 
+      0 12px 0 #646464, 
+      0 13px 0 #5e5d5d, 
+      0 14px 0 #666666, 
+      0 15px 0 #5c5b5b, 
+      0 22px 30px rgba(0, 0, 0, 0.9);
+}
+
+.intro {
+    text-align: center;
+    padding-bottom: 1%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background-image: url('../../background.jpg');
+    background-position: center
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.social-link {
+    padding-left: 10px;
+    padding-right: 10px
+    
+}
+

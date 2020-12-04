@@ -1,0 +1,110 @@
+$green: #4d874d;
+$brown: #584E4A;
+$whitey: #f0f0f0;
+
+$duration: .2s;
+$distance: 8px;
+$easeOutBack: cubic-bezier(0.175, 0.885, 0.320, 1.275);
+
+.navbar {
+    position: fixed;
+    overflow: hidden;
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 500;
+    
+}
+
+.navbar-hidden {
+    top: -50px;
+}
+
+.fadeOut{
+    opacity:0;
+    width:0;
+    height:0;
+    transition: width 0.5s 0.5s, height 0.5s 0.5s, opacity 0.5s;
+
+}
+.fadeIn{
+    opacity:1;
+    transition: width 0.5s, height 0.5s, opacity 0.5s 0.5s;
+
+}
+
+// .navbar {
+//     background-color: greenyellow
+// }
+
+// .navbar-links ul{
+//     display: inline-block;
+//     list-style-type: none;
+// }
+
+// ul{
+//     text-align: center;
+// }
+
+#navLink-home {
+    color: green;
+}
+
+/* .flat-btn {
+ border: 0;
+ box-shadow: none;
+ border-radius: 0px;
+ color: magenta;
+ height: 50px; 
+ width: 125px;
+ padding: 20px
+}
+
+
+.flat-btn:hover {
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(255, 2, 2, 0.774)
+} */
+
+.navLink {
+    font-size: 15px;
+    color: black;
+    position: relative;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px;
+  
+     &:before,
+      &:after {
+          content: '';
+          position: absolute;
+          bottom: 5px;
+          left: 0; right: 0;
+          height: 5px;
+          background-color: $green;
+      }
+      &:before {
+          opacity: 0;
+          transform: translateY(- $distance);
+          transition: transform 0s $easeOutBack, opacity 0s;
+      }
+      &:after {
+          opacity: 0;
+          transform: translateY($distance/2);
+          transition: transform $duration $easeOutBack, opacity $duration;
+      }
+      &:hover{
+          &:before,
+          &:after {
+              opacity: 1;
+              transform: translateY(0);
+          }
+          &:before {
+              transition: transform $duration $easeOutBack, opacity $duration;
+          }
+          &:after {
+              transition: transform 0s $duration $easeOutBack, opacity 0s $duration;
+          }
+      }
+  }
