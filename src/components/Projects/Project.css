@@ -1,0 +1,13 @@
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.project {
+    flex: 0 40%;
+    box-sizing: border-box;
+    margin: 1em;
+}

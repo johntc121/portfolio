@@ -1,6 +1,7 @@
 #myName {
     text-align: center;
-    font-size: 100px;
+    font-size: 5em;
+    margin-top: 0;
     color: whitesmoke;
     letter-spacing: .1em;
     text-shadow: 
@@ -35,7 +36,7 @@
 }
 
 .vertical-center {
-    margin: 0;
+    /* margin-top: 5em; */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -49,3 +50,8 @@
     
 }
 
+@media screen and (max-width: 800px){
+    #myName {
+        font-size: 4em;
+    }
+}

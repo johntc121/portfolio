@@ -1,0 +1,13 @@
+.row {
+    display: flex;
+}
+
+@media screen and (max-width: 800px){
+    .row {
+        flex-direction: column;
+    }
+
+    .about-picture {
+        width: 50%;
+    }
+}

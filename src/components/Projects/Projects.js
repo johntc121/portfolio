@@ -10,9 +10,8 @@ import './Project.css'
 const Projects = () => {
     
     return(
-        <div className="container projects">
-            <div className="row">
-                <div className="col s12 m6">
+        <div className="container projects">     
+                <div className="project p1">
                     <div className="card sticky-action">
                         <div className="card-image waves-effect waves-block waves-light">
                             <img src={p1} alt="project" className="activator project-image"/>
@@ -34,7 +33,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col s12 m6">
+                <div className="project p2">
                         <div className="card sticky-action">
                             <div className="card-image waves-effect waves-block waves-light">
                                 <img src={p2} alt="project" className="activator project-image"/>
@@ -55,7 +54,7 @@ const Projects = () => {
                             </div>
                         </div>
                 </div>
-                <div className="col s12 m6 "> {/* offset-m3 */}
+                <div className="project p3 "> {/* offset-m3 */}
                         <div className="card sticky-action">
                             <div className="card-image waves-effect waves-block waves-light">
                                 <img src={p3}alt="project" className="activator project-image"/>
@@ -77,7 +76,7 @@ const Projects = () => {
                             
                         </div>
                 </div>
-                <div className="col s12 m6 "> {/* offset-m3 */}
+                <div className="project p4 "> {/* offset-m3 */}
                         <div className="card sticky-action">
                             <div className="card-image waves-effect waves-block waves-light">
                                 <img src={p4}alt="project" className="activator project-image"/>
@@ -99,7 +98,6 @@ const Projects = () => {
                             
                         </div>
                 </div>
-            </div>
         </div>
     )
 }

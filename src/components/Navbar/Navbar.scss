@@ -68,7 +68,7 @@ $easeOutBack: cubic-bezier(0.175, 0.885, 0.320, 1.275);
 } */
 
 .navLink {
-    font-size: 15px;
+    font-size: 1em;
     color: black;
     position: relative;
     text-transform: uppercase;
@@ -108,3 +108,9 @@ $easeOutBack: cubic-bezier(0.175, 0.885, 0.320, 1.275);
           }
       }
   }
+
+  @media screen and (max-width: 400px){
+    .navLink {
+        font-size: 0.7em;
+    }
+}

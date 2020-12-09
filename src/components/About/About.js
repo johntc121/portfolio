@@ -1,11 +1,12 @@
 import React from 'react';
 import picture from '../../me.jpg'
+import './About.css'
 
 const About = () => {
     return(
         <div className="container about">
             <div className="row">
-                <div className="col s7 push-s5">
+                <div className="about-paragraph">
                     <span className="flow-text">
                         <h4>Hello! My name is John Cripe.</h4>
                         <p className="about-text">I am an aspiring developer currently attending the University of Oregon with
@@ -19,7 +20,7 @@ const About = () => {
                         </p>
                     </span>
                 </div>
-                <div className="col s5 pull-s7">
+                <div className="about-picture">
                     <img src={picture} alt="self" width="85%"/>
                 </div>
             </div>
