@@ -40,3 +40,20 @@ const App = () => {
       // </BrowserRouter>
 
 export default App;
+
+
+//App
+//  - Navbar
+//  - Homepage
+//     -- Homepage intro
+//     -- Home page content
+//         --- skills
+//         --- Projects
+//         --- contact Form
+//         --- links
+// - About page
+//     -- About me content
+//     -- contact Form
+// - projects page
+//     -- projects content
+//     -- link to github
