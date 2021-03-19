@@ -43,8 +43,8 @@ const Projects = () => {
                             </div>
                             <div className="card-action">
                                 <p>
-                                    <a href="https://github.com/johntc121/react-recipes" target="_blank" rel="noreferrer" className="project-links">View Source</a>
-                                    <a href="https://reactrecipefinder.herokuapp.com/" target="_blank" rel="noreferrer" className="project-links">View Project</a>
+                                    <a href="https://github.com/johntc121/recipe-v2" target="_blank" rel="noreferrer" className="project-links">View Source</a>
+                                    <a href="https://jc-recipev2.netlify.app/" target="_blank" rel="noreferrer" className="project-links">View Project</a>
                                 </p>
                             </div>
                             <div className="card-reveal">
